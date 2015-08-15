@@ -5,140 +5,57 @@
 		{
 			"path":"/intro",
 			"templateUrl":"partials/01_intro.html",
-			"controller":"SlideController"
+			"controller":"SlideController",
+            "background":"img/b1.jpg"
 		},
 	
 		{
-			"path":"/proven",
-			"templateUrl":"partials/03_proven.html",
-			"controller":"SlideController"
+			"path":"/objective",
+			"templateUrl":"partials/02_objective.html",
+			"controller":"SlideController",
+            "background":"img/b2.jpg"
 		},
 
 		{
-			"path":"/code_organization",
-			"templateUrl":"partials/04_code_organization.html",
-			"controller":"SlideController"
+			"path":"/technology",
+			"templateUrl":"partials/03_technology.html",
+			"controller":"SlideController",
+            "background":"img/b3.jpg"
 		},
 
 		{
-			"path":"/piles_on_floor",
-			"templateUrl":"partials/05_piles_on_floor.html",
-			"controller":"SlideController"
+			"path":"/customer",
+			"templateUrl":"partials/04_customers.html",
+			"controller":"SlideController",
+            "background":"img/b4.jpg"
 		},
 
 		{
-			"path":"/socks_drawer",
-			"templateUrl":"partials/06_socks_drawer.html",
-			"controller":"SlideController"
+			"path":"/shopper",
+			"templateUrl":"partials/05_shopper.html",
+			"controller":"SlideController",
+            "background":"img/b4.jpg"
 		},
 
 		{
-			"path":"/modularity",
-			"templateUrl":"partials/07_modularity.html",
-			"controller":"SlideController"
+			"path":"/howitworks",
+			"templateUrl":"partials/06_howitworks.html",
+			"controller":"SlideController",
+            "background":"img/b2.jpg"
 		},
 
 		{
-			"path":"/keep_controllers_simple",
-			"templateUrl":"partials/08_keep_controllers_simple.html",
-			"controller":"SlideController"
+			"path":"/business_model",
+			"templateUrl":"partials/07_business_model.html",
+			"controller":"SlideController",
+            "background":"img/b2.jpg"
 		},
 
-
-		{
-			"path":"/class_approach",
-			"templateUrl":"partials/09_class_approach.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/inheritance_pattern",
-			"templateUrl":"partials/10_inheritance_pattern.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/scope_uncluttered",
-			"templateUrl":"partials/11_scope_uncluttered.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/directive_needed",
-			"templateUrl":"partials/12_directive_needed.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/business_logic",
-			"templateUrl":"partials/13_business_logic.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/sharing_with_providers",
-			"templateUrl":"partials/14_sharing_with_providers.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/facade",
-			"templateUrl":"partials/15_facade.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/implementing_facade",
-			"templateUrl":"partials/16_implementing_facade.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/provider_configuration",
-			"templateUrl":"partials/17_provider_configuration.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/configuring_httpproviders",
-			"templateUrl":"partials/18_configuring_httpproviders.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/scope_problem",
-			"templateUrl":"partials/19_scope_problem.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/notifications",
-			"templateUrl":"partials/20_notifications.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/how_to_use_notifications",
-			"templateUrl":"partials/21_how_to_use_notifications.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/workflow_automation",
-			"templateUrl":"partials/22_workflow_automation.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/tools",
-			"templateUrl":"partials/23_tools.html",
-			"controller":"SlideController"
-		},
-
-		{
-			"path":"/thanks",
-			"templateUrl":"partials/24_thanks.html",
-			"controller":"SlideController"
-		}
+        {
+            "path":"/members",
+            "templateUrl":"partials/08_members.html",
+            "controller":"SlideController",
+            "background":"img/b2.jpg"
+        }
 	]
 } 

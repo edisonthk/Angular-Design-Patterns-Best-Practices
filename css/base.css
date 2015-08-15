@@ -12,15 +12,19 @@ html, body{
 
 
 body{	
-	background: #ffffff;
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGFkOWQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background-color: black;
+    background-image: url(/img/b1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+	/*background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZGFkOWQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 	background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #dad9d9 100%); 
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#dad9d9)); 
 	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#dad9d9 100%); 
 	background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#dad9d9 100%);
 	background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#dad9d9 100%); 
 	background: radial-gradient(ellipse at center, #ffffff 0%,#dad9d9 100%); 
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dad9d9',GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dad9d9',GradientType=1 );*/
 }
 
 
@@ -37,7 +41,19 @@ h2{
 h3{
 	font-size: 15px;
 	font-weight: 300;
-	color:#dd1b16;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h1, h2,h3,p, span,li {
+    color: white;
 }
 
 a,a:hover{
@@ -47,7 +63,6 @@ a,a:hover{
 
 .section{
 	font-size: 17px;
-	float: left;
 	text-align: left;
 	margin:20px 0px 0px 70px;
 
@@ -273,13 +288,38 @@ body:hover .navigation{
 }
 
 /***************************************************
+    Container
+***************************************************/
+.container {
+    width: 100%;
+    max-width: 920px;
+}
+
+.container ul {
+    list-style-type: disc;
+    margin-left: 70px;
+}
+
+.container ul li{
+    margin: 25px;
+}
+
+.container ul.small {
+    margin-left: 10px;
+}
+
+.container ul.small li {
+    font-size: 15px;
+}
+
+/***************************************************
 	Image Slide
 ***************************************************/
 .image-slide{
 	text-align:left;
 }
 
-.image-slide h1{
+.image-slide h1, .image-slide h3{
 	margin:50px 0px 20px 70px;
 	text-align: left;
 }
@@ -316,8 +356,38 @@ body:hover .navigation{
 	margin:20px 0 0 0;
 }
 
-.image-slide.centered{
-	text-align: center;
+.image-slide .center{
+	width: 510px;
+    margin: 0 auto;
+}
+
+.image-slide .center.business-model {
+    width: 620px;
+}
+
+.image-slide .center > .message-block {
+    display: inline-block;
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.image-slide .center > .message-block > div {
+    background-color: #3d7a71;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 20px;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    opacity: 0.65;
+}
+
+.image-slide .center > .message-block > span.body {
+    display: block;
 }
 
 .image-slide.centered img{
@@ -341,55 +411,42 @@ body:hover .navigation{
 }
 
 /***************************************************
-	Centered title slides
+    Image Slide
 ***************************************************/
-.centered-title-slide h1{
-	margin-top: 270px;
+.profile {
+    margin: 0 auto;
+}
+.profile img {
+    margin-left: 0;
+    width: 60%;
 }
 
-.centered-title-slide h2{
-	position: absolute;
-	left:50%;
-	margin: 10px 0px 0px -400px;
-	width:870px;
+.profile td {
+    width: 250px;
+}
+.profile td span.name {
+    display: block;
+}
+.profile td span, .profile td li {
+    font-size: 15px;
 }
 
-.centered-title-slide h3{
-	margin-top:80px;
-	clear:both;
-	float:none;
-	color:#333;
+.profile td ul {
+    margin-left: 10px;
 }
 
-.centered-title-slide img{
-	margin-top: 200px;
+.profile td li {
+    margin: 15px;
 }
-
-.centered-title-slide.thanks h1{
-	margin-top: 200px!important;
+span.large {
+    display: block;
+    text-align: center;
+    font-size: 25px;
 }
 
 /***************************************************
-	Ccode highlighting slides
+    Image Slide
 ***************************************************/
-.code_highlight_slide h1{
-	margin:50px 0px 20px 70px;
-	margin-top: 50px;
-	text-align: left;
-
-}
-
-.code_highlight_slide h2{
-	margin-top: 10px;
-	margin-right:200px;
-	text-align: right;
-}
-
-.code_highlight_slide .section{
-	width: 100%;
-}
-
-.code_highlight_slide .credits{
-	margin-top: -30px;
-	padding:0px 100px 0px 0px;
+.intro.container {
+    margin-top: 70px;
 }

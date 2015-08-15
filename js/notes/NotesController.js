@@ -9,8 +9,8 @@
 
 var NotesController = BaseController.extend({
 
-	_notifications:null,
-	_notesModel:null,
+	_notifications: null,
+	_notesModel: null,
 	
 
     /**

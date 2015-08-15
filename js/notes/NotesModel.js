@@ -66,6 +66,10 @@ var NotesModel = EventDispatcher.extend({
 		this._location.path(this._slides[this._currentSlide].path).replace();
 	},
 
+    getCurrentSlide: function() {
+        return this._slides[this._currentSlide];
+    },
+
 
 	/**
      * Triggered when the user press a key
